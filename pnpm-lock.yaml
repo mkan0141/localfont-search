@@ -8,6 +8,7 @@ specifiers:
   autoprefixer: 10.4.14
   eslint: 8.42.0
   eslint-config-next: 13.4.6
+  jotai: ^2.2.0
   jsdom: ^22.1.0
   lodash-es: ^4.17.21
   next: 13.4.6
@@ -28,6 +29,7 @@ dependencies:
   autoprefixer: 10.4.14_postcss@8.4.24
   eslint: 8.42.0
   eslint-config-next: 13.4.6_tizxnkcvjrb4cldxgwq5h3lj5u
+  jotai: 2.2.0_react@18.2.0
   lodash-es: 4.17.21
   next: 13.4.6_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.24
@@ -2125,6 +2127,18 @@ packages:
   /jiti/1.18.2:
     resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
     hasBin: true
+    dev: false
+
+  /jotai/2.2.0_react@18.2.0:
+    resolution: {integrity: sha512-2gsMVpoaBa6aPHLArNhphck4+n8unZ8xF4Ciqhb+Z+tjsvabn5QFisNFHBMWooMAAmmTNU5TcvBIP8/XAsZy8Q==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /js-string-escape/1.0.1:
