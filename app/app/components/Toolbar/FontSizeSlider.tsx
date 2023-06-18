@@ -15,7 +15,7 @@ const FontSizeSlider = ({ className = '' }: Props) => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex items-center">
       <Slider.Root
         className={`relative flex items-center ${className}`}
         min={8}

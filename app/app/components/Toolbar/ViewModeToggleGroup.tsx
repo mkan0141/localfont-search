@@ -27,15 +27,15 @@ const ViewModeToggleGroup = ({ className = '' }: Props) => {
         value="horizontal"
         className="inline-flex items-center rounded bg-white p-1 text-slate-700 hover:bg-slate-50 data-[state='on']:bg-slate-200"
       >
-        <ViewHorizontalIcon height={24} width={24} className="inline-block" />
-        <span className="ml-1 inline-block">リスト</span>
+        <ViewHorizontalIcon height={20} width={20} className="inline-block" />
+        <span className="ml-1 inline-block text-sm">リスト</span>
       </Toolbar.ToggleItem>
       <Toolbar.ToggleItem
         value="grid"
         className="ml-4 inline-flex items-center rounded bg-white p-1 text-slate-700 hover:bg-slate-50 data-[state='on']:bg-slate-200"
       >
-        <ViewGridIcon height={24} width={24} className="inline-block" />
-        <span className="ml-1 inline-block">グリッド</span>
+        <ViewGridIcon height={20} width={20} className="inline-block" />
+        <span className="ml-1 inline-block text-sm">グリッド</span>
       </Toolbar.ToggleItem>
     </Toolbar.ToggleGroup>
   );
