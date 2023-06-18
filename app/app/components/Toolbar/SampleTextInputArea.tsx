@@ -26,7 +26,7 @@ const SampleInputArea = ({ className }: Props) => {
         className="h-full pr-4 text-sm outline-none"
         onChange={onChangeSampleText}
         value={sampleText}
-        placeholder="サンプルテキストを入力する"
+        placeholder="サンプルテキストを入力"
         autoFocus={false}
         autoComplete="off"
         autoCapitalize="off"

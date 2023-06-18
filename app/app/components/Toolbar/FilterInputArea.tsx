@@ -27,7 +27,7 @@ const FilterInputArea = ({ className }: Props) => {
         className="h-full pr-4 text-sm outline-none"
         onChange={onChangeFilterText}
         value={filterText}
-        placeholder="フォントを検索する"
+        placeholder="フォントを検索"
         autoFocus={false}
         autoComplete="off"
         autoCapitalize="off"
