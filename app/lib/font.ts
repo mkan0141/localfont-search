@@ -40,3 +40,4 @@ const getLocalFontList = async (): Promise<Font[]> => {
 };
 
 export { isSupportedQueryLocalFontsApi, getLocalFontList };
+export type { Font };
