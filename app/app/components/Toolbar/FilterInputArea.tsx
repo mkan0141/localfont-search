@@ -24,7 +24,7 @@ const FilterInputArea = ({ className }: Props) => {
     >
       <MagnifyingGlassIcon className="inline-block" />
       <input
-        className="h-full text-sm outline-none"
+        className="h-full pr-4 text-sm outline-none"
         onChange={onChangeFilterText}
         value={filterText}
         placeholder="フォントを検索する"

@@ -23,7 +23,7 @@ const SampleInputArea = ({ className }: Props) => {
       className={`${className} relative rounded-md border border-slate-300 px-2`}
     >
       <input
-        className="h-full text-sm outline-none"
+        className="h-full pr-4 text-sm outline-none"
         onChange={onChangeSampleText}
         value={sampleText}
         placeholder="サンプルテキストを入力する"
