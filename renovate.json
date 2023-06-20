@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["after 5am on Friday", "before 10am on Friday"],
+  "packageRules": [
+    {
+      "groupName": "eslint",
+      "matchPackagePrefixes": ["eslint", "@typescript-eslint"]
+    },
+    {
+      "groupName": "prettier",
+      "matchPackagePrefixes": ["prettier"]
+    },
+    {
+      "groupName": "react/nextjs",
+      "matchPackagePrefixes": ["react", "next"]
+    }
+  ]
+}
