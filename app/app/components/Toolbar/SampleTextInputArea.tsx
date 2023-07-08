@@ -18,9 +18,7 @@ const SampleInputArea = ({ className }: Props) => {
   const onClearSampleText = () => setSampleText('');
 
   return (
-    <div
-      className={`${className} relative rounded-md border border-slate-300 px-2`}
-    >
+    <div className={`${className} relative rounded-md border border-slate-300 px-2`}>
       <input
         className="h-full pr-4 text-sm outline-none"
         onChange={onChangeSampleText}
@@ -32,10 +30,7 @@ const SampleInputArea = ({ className }: Props) => {
         spellCheck="false"
       />
       {sampleText && (
-        <button
-          className="absolute right-1 top-1/2 -translate-y-1/2"
-          onClick={onClearSampleText}
-        >
+        <button className="absolute right-1 top-1/2 -translate-y-1/2" onClick={onClearSampleText}>
           <Cross1Icon />
         </button>
       )}
