@@ -12,7 +12,6 @@ const SampleInputArea = ({ className }: Props) => {
   const [sampleText, setSampleText] = useAtom(sampleTextAtom);
 
   const onChangeSampleText = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
     setSampleText(e.target.value);
   };
 
