@@ -15,19 +15,19 @@ const FontToolbar = ({ className = '' }: Props) => {
   return (
     <Toolbar.Root className={`flex flex-col bg-white ${className}`}>
       <div>
-        <div className="text-xs">レイアウト</div>
-        <ViewModeToggleGroup className="flex h-6 items-center" />
+        <div className="text-xs text-slate-600">レイアウト</div>
+        <ViewModeToggleGroup className="mt-1 flex h-6 items-center" />
       </div>
       <div className="mt-4">
-        <div className="text-xs">フォント検索</div>
+        <div className="text-xs text-slate-600">フォント検索</div>
         <FilterInputArea className="h-7" />
       </div>
       <div className="mt-4">
-        <div className="text-xs">サンプルテキスト</div>
+        <div className="text-xs text-slate-600">サンプルテキスト</div>
         <SampleInputArea className="h-7" />
       </div>
       <div className="mt-4">
-        <div className="text-xs">フォントサイズ</div>
+        <div className="text-xs text-slate-600">フォントサイズ</div>
         <FontSizeSlider className="flex h-8 w-52 items-center" />
       </div>
     </Toolbar.Root>

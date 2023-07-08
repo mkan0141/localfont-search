@@ -1,8 +1,8 @@
 import { atom } from 'jotai';
 
-export type ViewModeType = 'horizontal' | 'grid';
+export type ViewModeType = 'grid' | 'horizontal';
 
-export const viewModeAtom = atom<ViewModeType>('horizontal');
+export const viewModeAtom = atom<ViewModeType>('grid');
 export const fontSizeAtom = atom<number>(32);
 
 export const localFontListAtom = atom<any[]>([]);
