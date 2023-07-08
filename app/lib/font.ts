@@ -28,15 +28,13 @@ const getLocalFontList = async (): Promise<Font[]> => {
 
   const localFontList = await window.queryLocalFonts!();
 
-  return Object.values(groupBy(localFontList, (font) => font.family)).map(
-    (fonts: FontData[]) => {
-      return {
-        family: fonts[0].family,
-        isBold: fonts.some((font) => font.style === 'Bold'),
-        isItalic: fonts.some((font) => font.style === 'Italic'),
-      };
-    }
-  );
+  return Object.values(groupBy(localFontList, (font) => font.family)).map((fonts: FontData[]) => {
+    return {
+      family: fonts[0].family,
+      isBold: fonts.some((font) => font.style === 'Bold'),
+      isItalic: fonts.some((font) => font.style === 'Italic'),
+    };
+  });
 };
 
 export { isSupportedQueryLocalFontsApi, getLocalFontList };
