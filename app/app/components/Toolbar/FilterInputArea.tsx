@@ -19,9 +19,7 @@ const FilterInputArea = ({ className }: Props) => {
   const onClearFilterText = () => setFilterText('');
 
   return (
-    <div
-      className={`${className} relative rounded-md border border-slate-300 px-2`}
-    >
+    <div className={`${className} relative rounded-md border border-slate-300 px-2`}>
       <MagnifyingGlassIcon className="inline-block" />
       <input
         className="h-full pr-4 text-sm outline-none"
@@ -34,10 +32,7 @@ const FilterInputArea = ({ className }: Props) => {
         spellCheck="false"
       />
       {filterText && (
-        <button
-          className="absolute right-1 top-1/2 -translate-y-1/2"
-          onClick={onClearFilterText}
-        >
+        <button className="absolute right-1 top-1/2 -translate-y-1/2" onClick={onClearFilterText}>
           <Cross1Icon />
         </button>
       )}
