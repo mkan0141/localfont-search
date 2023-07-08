@@ -32,7 +32,7 @@ const ViewModeToggleGroup = ({ className = '' }: Props) => {
       </Toolbar.ToggleItem>
       <Toolbar.ToggleItem
         value="grid"
-        className="ml-4 inline-flex items-center rounded bg-white p-1 text-slate-700 hover:bg-slate-50 data-[state='on']:bg-slate-200"
+        className="ml-1 inline-flex items-center rounded bg-white p-1 text-slate-700 hover:bg-slate-50 data-[state='on']:bg-slate-200"
       >
         <ViewGridIcon height={20} width={20} className="inline-block" />
         <span className="ml-1 inline-block text-sm">グリッド</span>
