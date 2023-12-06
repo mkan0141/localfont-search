@@ -2,7 +2,7 @@ import { ChangeEvent } from 'react';
 import { useAtom } from 'jotai';
 
 import { Cross1Icon } from '@radix-ui/react-icons';
-import { sampleTextAtom } from '@/common/atom/index';
+import { sampleTextAtom } from '@/atom';
 
 type Props = {
   className?: string;

@@ -1,7 +1,7 @@
 import * as Slider from '@radix-ui/react-slider';
 import { useAtom } from 'jotai';
 
-import { fontSizeAtom } from '@/common/atom/index';
+import { fontSizeAtom } from '@/atom';
 
 type Props = {
   className?: string;

@@ -2,7 +2,7 @@ import { ChangeEvent } from 'react';
 import { useAtom } from 'jotai';
 
 import { MagnifyingGlassIcon, Cross1Icon } from '@radix-ui/react-icons';
-import { filterTextAtom } from '@/common/atom/index';
+import { filterTextAtom } from '@/atom';
 
 type Props = {
   className?: string;

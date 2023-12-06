@@ -2,7 +2,7 @@ import { useAtom } from 'jotai';
 import * as Toolbar from '@radix-ui/react-toolbar';
 import { ViewHorizontalIcon, ViewGridIcon } from '@radix-ui/react-icons';
 
-import { viewModeAtom, ViewModeType } from '@/common/atom';
+import { viewModeAtom, ViewModeType } from '@/atom';
 
 type Props = {
   className?: string;

@@ -11,7 +11,7 @@ import {
   localFontListAtom,
   filterTextAtom,
   sampleTextAtom,
-} from '@/common/atom';
+} from '@/atom';
 
 type FontCardProps = {
   className?: string;
